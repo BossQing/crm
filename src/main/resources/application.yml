@@ -1,0 +1,8 @@
+spring:
+  mvc:
+    static-path-pattern: /static/**
+ thymeleaf:
+   prefix: classpath:/templates/system/
+   suffix: .html
+   mode: HTML5
+   encoding: utf-8
